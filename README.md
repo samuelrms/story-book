@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Story-book
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Projeto criado para acelerar o desenvolvimento de projetos
 
-## Available Scripts
+### Esse projeto possui os seguintes componentes até o momento:
 
-In the project directory, you can run:
+### `Button` --- Componente com props para criação de botões genéricos o mesmo é uma `button`
 
-### `npm start`
+### `Container` --- Componente com props para criação de containers genéricos o mesmo é uma `div`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `Content` --- Componente com props para criação de conteudos genéricos o mesmo é uma `div`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Description` --- Componente com props para criação de descrições genéricas o mesmo é um `h2`
 
-### `npm test`
+### `SubTitle` --- Componente com props para criação de sub titulos genéricos o mesmo é um `h2`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Title` --- Componente com props para criação de titulos genéricos o mesmo é um `h1`
 
-### `npm run build`
+### `Text` --- Componente com props para criação de textos genéricos o mesmo é um `p`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Img` --- Componente com props para criação de imagens genéricas o mesmo é um `img`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Footer` --- Componente para criação de footer o mesmo é um `Footer`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Header` --- Componente para criação de header o mesmo é um `Header`
 
-### `npm run eject`
+### `mooks` --- Componente para implementação de textos, utilizado quando não se possui um vinculo com API o mesmo é uma `array`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `colors` --- Arquivo para implementação de cores, utilizado para criar uma reutilização de cores e manter um padrão no projeto onde será necessario alterar a cor somente em um local o mesmo é uma `array`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `GlobalStyle` --- Arquivo para implementação de estilos globais, utilizado para setar um estilo global no projeto o mesmo é uma `array`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `screens` --- Pasta indicada para armazenar todas as telas do projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+# Instalando o projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Para clonar o projeto basta apenas utilizar o comando
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`git clone https://github.com/samuelrms/story-book.git`
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Em sequencia utilize o instalador que desejar
 
-### Analyzing the Bundle Size
+`npm install` ou `yarn`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+# Implementações
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Esse projeto já conta com
 
-### Advanced Configuration
+`react-router-dom` e `styled-components`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Conta com local para implementação de homepage em seu `package.json`
 
-### Deployment
+### Também possui dois scripts proprios:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### `git-env-repo` --- Comando que builda o projeto e sobe fas um push para seu repositório no GitHub
 
-### `npm run build` fails to minify
+### e
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `git-env-gh` --- Comando que solicita uma atualização para sua page online através do GitHub pages
+
+### Caso utilize npm será necessária a troca dos comandos acima no arquivo `package.json`
+
+---
