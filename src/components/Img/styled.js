@@ -10,4 +10,6 @@ export const ImgDefault = styled.img`
   background: ${({ background }) => background};
   border: ${({ border }) => border};
   border-radius: ${({ borderRadius }) => borderRadius};
+  width: ${({ width }) => width};
+  height: ${({ height }) => height};
 `;

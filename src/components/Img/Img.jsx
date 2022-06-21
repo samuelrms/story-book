@@ -14,10 +14,14 @@ const Img = ({
   backgroundSize,
   alt,
   src,
+  width,
+  height,
   ...restProps
 }) => {
   return (
     <ImgDefault
+      width={width}
+      height={height}
       src={src}
       alt={alt}
       backgroundSize={backgroundSize}

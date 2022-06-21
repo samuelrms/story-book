@@ -4,14 +4,62 @@ import facebook from "../desktop/facebook.svg";
 import instagram from "../desktop/instagram.svg";
 import twitter from "../desktop/twitter.svg";
 
-export const FacebookIcon = () => {
-  return <Img src={facebook} alt="Facebook" />;
+export const FacebookIcon = ({
+  width,
+  height,
+  margin,
+  padding,
+  ...resProps
+}) => {
+  return (
+    <Img
+      width={width}
+      height={height}
+      margin={margin}
+      padding={padding}
+      {...resProps}
+      src={facebook}
+      alt="Facebook"
+    />
+  );
 };
 
-export const InstagramIcon = () => {
-  return <Img src={instagram} alt="instagram" />;
+export const InstagramIcon = ({
+  width,
+  height,
+  margin,
+  padding,
+  ...resProps
+}) => {
+  return (
+    <Img
+      width={width}
+      height={height}
+      margin={margin}
+      padding={padding}
+      {...resProps}
+      src={instagram}
+      alt="instagram"
+    />
+  );
 };
 
-export const TwitterIcon = () => {
-  return <Img src={twitter} alt="twitter" />;
+export const TwitterIcon = ({
+  width,
+  height,
+  margin,
+  padding,
+  ...resProps
+}) => {
+  return (
+    <Img
+      width={width}
+      height={height}
+      margin={margin}
+      padding={padding}
+      {...resProps}
+      src={twitter}
+      alt="twitter"
+    />
+  );
 };
