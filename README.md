@@ -60,10 +60,25 @@
 
 ### `git-env-repo` --- Comando que builda o projeto e sobe fas um push para seu repositório no GitHub
 
-### e
+e
 
 ### `git-env-gh` --- Comando que solicita uma atualização para sua page online através do GitHub pages
 
-### Caso utilize npm será necessária a troca dos comandos acima no arquivo `package.json`
+## Caso utilize npm será necessária a troca dos comandos acima no arquivo `package.json`
+
+
+### `git-env-repo` --- Altere o conteudo para `npm run build && git push origin main`
+
+e
+
+### `git-env-gh` --- Altere o conteudo para `gh-pages -d build`
+
+## Ordem de execução para subida ao gh-pages:
+
+### Primeiro execute `yarn git-env-repo` em caso de utilização do yarn
+### Utilização de npm `npm run git-env-repo`
+
+### Após utilize `yarn git-env-gh` em caso de utilização do yarn
+### Utilização de npm `npm run git-env-gh`
 
 ---
