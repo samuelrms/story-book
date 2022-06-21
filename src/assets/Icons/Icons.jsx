@@ -19,7 +19,7 @@ export const FacebookIcon = ({
       padding={padding}
       {...resProps}
       src={facebook}
-      alt="Facebook"
+      alt="Logo Facebook"
     />
   );
 };
@@ -39,7 +39,7 @@ export const InstagramIcon = ({
       padding={padding}
       {...resProps}
       src={instagram}
-      alt="instagram"
+      alt="Logo Instagram"
     />
   );
 };
@@ -59,7 +59,7 @@ export const TwitterIcon = ({
       padding={padding}
       {...resProps}
       src={twitter}
-      alt="twitter"
+      alt="Logo Twitter"
     />
   );
 };
