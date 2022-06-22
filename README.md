@@ -84,5 +84,3 @@ e
 ---
 
 # Criado por `Samuel Ramos`
-
----
