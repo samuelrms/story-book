@@ -82,3 +82,7 @@ e
 ### Utilização de npm `npm run git-env-gh`
 
 ---
+
+# Criado por `Samuel Ramos`
+
+---
