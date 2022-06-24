@@ -7,6 +7,9 @@ const Content = ({
   height,
   margin,
   background,
+  padding,
+  border,
+  boxShadow,
   ...restProps
 }) => {
   return (
@@ -15,6 +18,9 @@ const Content = ({
       width={width}
       margin={margin}
       background={background}
+      padding={padding}
+      border={border}
+      boxShadow={boxShadow}
       {...restProps}
     >
       {children}

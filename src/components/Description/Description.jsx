@@ -1,12 +1,36 @@
 import React from "react";
 import { DescriptionDefault } from "./styled";
 
-const Description = ({ children, fontSize, color, margin, ...restProps }) => {
+const Description = ({
+  children,
+  fontSize,
+  color,
+  margin,
+  cursor,
+  padding,
+  background,
+  borderRadius,
+  border,
+  fontWeight,
+  width,
+  letterSpacing,
+  textAlign,
+  ...restProps
+}) => {
   return (
     <DescriptionDefault
+      letterSpacing={letterSpacing}
+      fontSize={fontSize}
       margin={margin}
       color={color}
-      fontSize={fontSize}
+      cursor={cursor}
+      padding={padding}
+      background={background}
+      borderRadius={borderRadius}
+      border={border}
+      fontWeight={fontWeight}
+      width={width}
+      textAlign={textAlign}
       {...restProps}
     >
       {children}

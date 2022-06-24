@@ -11,10 +11,15 @@ const Title = ({
   background,
   borderRadius,
   border,
+  fontWeight,
+  width,
+  letterSpacing,
+  textAlign,
   ...restProps
 }) => {
   return (
     <DefaultTitle
+      letterSpacing={letterSpacing}
       fontSize={fontSize}
       margin={margin}
       color={color}
@@ -23,6 +28,9 @@ const Title = ({
       background={background}
       borderRadius={borderRadius}
       border={border}
+      fontWeight={fontWeight}
+      width={width}
+      textAlign={textAlign}
       {...restProps}
     >
       {children}

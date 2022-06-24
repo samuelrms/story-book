@@ -2,7 +2,6 @@ import React from "react";
 import { ImgDefault } from "./styled";
 
 const Img = ({
-  children,
   fontSize,
   color,
   margin,
@@ -34,9 +33,7 @@ const Img = ({
       borderRadius={borderRadius}
       border={border}
       {...restProps}
-    >
-      {children}
-    </ImgDefault>
+    />
   );
 };
 
