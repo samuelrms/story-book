@@ -11,14 +11,28 @@ const Button = ({
   bordeRadius,
   border,
   cursor,
-  widthTablet,
-  heightTablet,
-  marginTablet,
-  paddingTablet,
   boxShadow,
   hoverBackground,
   hoverColor,
   hoverBoder,
+  widthTablet,
+  heightTablet,
+  marginTablet,
+  paddingTablet,
+  positionTablet,
+  topTablet,
+  leftTablet,
+  rightTablet,
+  bottomTablet,
+  widthMobileIntermediary,
+  heightMobileIntermediary,
+  marginMobileIntermediary,
+  paddingMobileIntermediary,
+  positionMobileIntermediary,
+  topMobileIntermediary,
+  leftMobileIntermediary,
+  rightMobileIntermediary,
+  bottomMobileIntermediary,
   ...restProps
 }) => {
   return (
@@ -31,13 +45,27 @@ const Button = ({
       bordeRadius={bordeRadius}
       border={border}
       cursor={cursor}
+      boxShadow={boxShadow}
+      hoverBackground={hoverBackground}
+      hoverBoder={hoverBoder}
       widthTablet={widthTablet}
       heightTablet={heightTablet}
       marginTablet={marginTablet}
       paddingTablet={paddingTablet}
-      boxShadow={boxShadow}
-      hoverBackground={hoverBackground}
-      hoverBoder={hoverBoder}
+      positionTablet={positionTablet}
+      topTablet={topTablet}
+      leftTablet={leftTablet}
+      rightTablet={rightTablet}
+      bottomTablet={bottomTablet}
+      widthMobileIntermediary={widthMobileIntermediary}
+      heightMobileIntermediary={heightMobileIntermediary}
+      marginMobileIntermediary={marginMobileIntermediary}
+      paddingMobileIntermediary={paddingMobileIntermediary}
+      positionMobileIntermediary={positionMobileIntermediary}
+      topMobileIntermediary={topMobileIntermediary}
+      leftMobileIntermediary={leftMobileIntermediary}
+      rightMobileIntermediary={rightMobileIntermediary}
+      bottomMobileIntermediary={bottomMobileIntermediary}
       {...restProps}
     >
       {children}

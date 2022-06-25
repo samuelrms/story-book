@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "./../size/device";
 
 export const ButtonDefault = styled.button`
   width: ${({ width }) => width};
@@ -22,7 +23,7 @@ export const ButtonDefault = styled.button`
     background: ${({ hoverBackground }) => hoverBackground};
   }
 
-  @media (max-width: 768px) {
+  @media ${device.tablet} {
     width: ${({ widthTablet }) => widthTablet};
     height: ${({ heightTablet }) => heightTablet};
     margin: ${({ marginTablet }) => marginTablet};
@@ -32,6 +33,18 @@ export const ButtonDefault = styled.button`
     left: ${({ leftTablet }) => leftTablet};
     right: ${({ rightTablet }) => rightTablet};
     bottom: ${({ bottomTablet }) => bottomTablet};
+  }
+
+  @media ${device.mobile425} {
+    width: ${({ widthMobileIntermediary }) => widthMobileIntermediary};
+    height: ${({ heightMobileIntermediary }) => heightMobileIntermediary};
+    margin: ${({ marginMobileIntermediary }) => marginMobileIntermediary};
+    padding: ${({ paddingMobileIntermediary }) => paddingMobileIntermediary};
+    position: ${({ positionMobileIntermediary }) => positionMobileIntermediary};
+    top: ${({ topMobileIntermediary }) => topMobileIntermediary};
+    left: ${({ leftMobileIntermediary }) => leftMobileIntermediary};
+    right: ${({ rightMobileIntermediary }) => rightMobileIntermediary};
+    bottom: ${({ bottomMobileIntermediary }) => bottomMobileIntermediary};
   }
 `;
 

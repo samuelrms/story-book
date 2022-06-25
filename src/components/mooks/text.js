@@ -1,1 +1,5 @@
-export const text = {};
+export const text = {
+  header: {},
+  body: {},
+  footer: {},
+};
