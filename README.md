@@ -6,35 +6,37 @@
 
 ### `Icons` --- Componente que conta com três icons até o momento, facebook, instagram e twitter.
 
-### `Button` --- Componente com props para criação de botões genéricos o mesmo é uma `button`
+### `Button` --- Componente com props para criação de botões genéricos o mesmo é uma `button`.
 
-### `Container` --- Componente com props para criação de containers genéricos o mesmo é uma `div`
+### `Container` --- Componente com props para criação de containers genéricos o mesmo é uma `div`.
 
-### `Content` --- Componente com props para criação de conteudos genéricos o mesmo é uma `div`
+### `Content` --- Componente com props para criação de conteudos genéricos o mesmo é uma `div`.
 
-### `Description` --- Componente com props para criação de descrições genéricas o mesmo é um `h2`
+### `Description` --- Componente com props para criação de descrições genéricas o mesmo é um `h2`.
 
-### `SubTitle` --- Componente com props para criação de sub titulos genéricos o mesmo é um `h2`
+### `SubTitle` --- Componente com props para criação de sub titulos genéricos o mesmo é um `h2`.
 
-### `Title` --- Componente com props para criação de titulos genéricos o mesmo é um `h1`
+### `Title` --- Componente com props para criação de titulos genéricos o mesmo é um `h1`.
 
-### `Text` --- Componente com props para criação de textos genéricos o mesmo é um `p`
+### `Text` --- Componente com props para criação de textos genéricos o mesmo é um `p`.
 
-### `Img` --- Componente com props para criação de imagens genéricas o mesmo é um `img`
+### `Img` --- Componente com props para criação de imagens genéricas o mesmo é um `img`.
 
-### `Footer` --- Componente para criação de footer o mesmo é um `Footer`
+### `Footer` --- Componente para criação de footer o mesmo é um `Footer`.
 
-### `Header` --- Componente para criação de header o mesmo é um `Header`
+### `Header` --- Componente para criação de header o mesmo é um `Header`.
 
-### `mooks` --- Componente para implementação de textos e images, utilizado quando não se possui um vinculo com API o mesmo é uma `array`
+### `mooks` --- Componente para implementação de textos e images, utilizado quando não se possui um vinculo com API o mesmo é uma `array`.
 
-### `colors` --- Arquivo para implementação de cores, utilizado para criar uma reutilização de cores e manter um padrão no projeto onde será necessario alterar a cor somente em um local o mesmo é uma `array`
+### `colors` --- Arquivo para implementação de cores, utilizado para criar uma reutilização de cores e manter um padrão no projeto onde será necessario alterar a cor somente em um local o mesmo é uma `array`.
 
-### `GlobalStyle` --- Arquivo para implementação de estilos globais, utilizado para setar um estilo global no projeto o mesmo é uma `array`
+### `GlobalStyle` --- Arquivo para implementação de estilos globais, utilizado para setar um estilo global no projeto o mesmo é uma `array`.
 
-### `screens` --- Pasta indicada para armazenar todas as telas do projeto
+### `screens` --- Pasta indicada para armazenar todas as telas do projeto.
 
 ### `size` --- Pasta onde contém o arquivo de `device` que possui alguns tamanhos de dispositivos para otmizar a implementação de responsividade com alguns @ media.
+
+### `services` --- Pasta com arquivo `.env` e `api`, onde passaremos a api a ser utilizada e todas as funções que faremos com ela.
 
 ---
 
