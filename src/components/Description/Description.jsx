@@ -15,10 +15,12 @@ const Description = ({
   width,
   letterSpacing,
   textAlign,
+  className,
   ...restProps
 }) => {
   return (
     <DescriptionDefault
+      className={className}
       letterSpacing={letterSpacing}
       fontSize={fontSize}
       margin={margin}

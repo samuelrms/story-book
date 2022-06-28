@@ -33,10 +33,12 @@ const Button = ({
   leftMobileIntermediary,
   rightMobileIntermediary,
   bottomMobileIntermediary,
+  className,
   ...restProps
 }) => {
   return (
     <ButtonDefault
+      className={className}
       onClick={onClick}
       width={width}
       height={height}

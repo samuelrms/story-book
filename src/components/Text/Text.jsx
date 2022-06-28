@@ -15,10 +15,12 @@ const Text = ({
   width,
   letterSpacing,
   textAlign,
+  className,
   ...restProps
 }) => {
   return (
     <TextDefault
+      className={className}
       letterSpacing={letterSpacing}
       fontSize={fontSize}
       margin={margin}

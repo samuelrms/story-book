@@ -11,10 +11,12 @@ const Line = ({
   borderRadius,
   heightTablet,
   widthTablet,
+  className,
   ...restProps
 }) => {
   return (
     <LineDefault
+      className={className}
       margin={margin}
       padding={padding}
       width={width}

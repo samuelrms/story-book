@@ -38,10 +38,12 @@ const Img = ({
   leftMobileIntermediary,
   rightMobileIntermediary,
   bottomMobileIntermediary,
+  className,
   ...restProps
 }) => {
   return (
     <ImgDefault
+      className={className}
       width={width}
       height={height}
       src={src}

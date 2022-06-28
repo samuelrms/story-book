@@ -15,10 +15,12 @@ const Title = ({
   width,
   letterSpacing,
   textAlign,
+  className,
   ...restProps
 }) => {
   return (
     <DefaultTitle
+      className={className}
       letterSpacing={letterSpacing}
       fontSize={fontSize}
       margin={margin}

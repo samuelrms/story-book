@@ -34,10 +34,12 @@ const Container = ({
   leftMobileIntermediary,
   rightMobileIntermediary,
   bottomMobileIntermediary,
+  className,
   ...restProps
 }) => {
   return (
     <ContainerDefault
+      className={className}
       height={height}
       width={width}
       margin={margin}

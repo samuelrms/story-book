@@ -34,10 +34,12 @@ const Content = ({
   leftMobileIntermediary,
   rightMobileIntermediary,
   bottomMobileIntermediary,
+  className,
   ...restProps
 }) => {
   return (
     <ContentDefault
+      className={className}
       height={height}
       width={width}
       margin={margin}

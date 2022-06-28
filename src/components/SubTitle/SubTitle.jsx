@@ -15,10 +15,12 @@ const SubTitle = ({
   width,
   letterSpacing,
   textAlign,
+  className,
   ...restProps
 }) => {
   return (
     <SubTitleDefault
+      className={className}
       letterSpacing={letterSpacing}
       fontSize={fontSize}
       margin={margin}
