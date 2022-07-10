@@ -15,7 +15,7 @@ const Container = ({
   cursor,
   hoverBackground,
   hoverColor,
-  hoverBoder,
+  hoverBorder,
   widthTablet,
   heightTablet,
   marginTablet,
@@ -51,7 +51,7 @@ const Container = ({
       bordeRadius={bordeRadius}
       cursor={cursor}
       hoverBackground={hoverBackground}
-      hoverBoder={hoverBoder}
+      hoverBorder={hoverBorder}
       widthTablet={widthTablet}
       heightTablet={heightTablet}
       marginTablet={marginTablet}

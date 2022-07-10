@@ -7,7 +7,7 @@ export const ContainerDefault = styled.section`
   margin: ${({ margin }) => margin};
   background: ${({ background }) => background};
   padding: ${({ padding }) => padding};
-  border: ${({ boder }) => boder};
+  border: ${({ border }) => border};
   box-shadow: ${({ boxShadow }) => boxShadow};
   border-radius: ${({ bordeRadius }) => bordeRadius};
   cursor: ${({ cursor }) => cursor};
@@ -20,6 +20,7 @@ export const ContainerDefault = styled.section`
 
   :hover {
     background: ${({ hoverBackground }) => hoverBackground};
+    border: ${({ hoverBorder }) => hoverBorder};
   }
 
   @media ${device.tablet} {
