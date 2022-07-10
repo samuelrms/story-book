@@ -26,7 +26,7 @@
 
 ### `Header` --- Componente para criação de header o mesmo é um `Header`.
 
-### `mooks` --- Componente para implementação de textos e images, utilizado quando não se possui um vinculo com API o mesmo é uma `array`.
+### `mocks` --- Componente para implementação de textos e images, utilizado quando não se possui um vinculo com API o mesmo é uma `array`.
 
 ### `colors` --- Arquivo para implementação de cores, utilizado para criar uma reutilização de cores e manter um padrão no projeto onde será necessario alterar a cor somente em um local o mesmo é uma `array`.
 
